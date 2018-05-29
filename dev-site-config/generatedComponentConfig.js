@@ -397,13 +397,9 @@ import ProgressBarGradient from '../packages/terra-progress-bar/examples/test-ex
 import ProgressBarSize from '../packages/terra-progress-bar/examples/test-examples/ProgressBarSize.example';
 import MockPropsTable from '../packages/terra-props-table/examples/test-examples/MockPropsTable.example';
 import MockPropsTableWithTitle from '../packages/terra-props-table/examples/test-examples/MockPropsTableWithTitle.example';
-import DefaultResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/DefaultResponsiveElement';
-import HugeResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/HugeResponsiveElement';
-import LargeResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/LargeResponsiveElement';
-import MediumResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/MediumResponsiveElement';
-import SmallResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/SmallResponsiveElement';
-import TinyResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/TinyResponsiveElement';
-import WindowResponsiveElement from '../packages/terra-responsive-element/tests/nightwatch/WindowResponsiveElement';
+import AllBreakpoints from '../packages/terra-responsive-element/examples/test-examples/AllBreakpoints.example';
+import AllBreakpointsSmallParent from '../packages/terra-responsive-element/examples/test-examples/AllBreakpointsSmallParent.example';
+import DefaultAndMedium from '../packages/terra-responsive-element/examples/test-examples/DefaultAndMedium.example';
 import AutoSearchDisabledSearchField from '../packages/terra-search-field/tests/nightwatch/AutoSearchDisabledSearchField';
 import CallbackSearchField from '../packages/terra-search-field/tests/nightwatch/CallbackSearchField';
 import DefaultSearchField from '../packages/terra-search-field/tests/nightwatch/DefaultSearchField';
@@ -2543,39 +2539,19 @@ const componentConfig = {
     path: '/responsive-element',
     tests: [
       {
-        name: 'Default Responsive Element',
-        path: '/default-responsive-element',
-        component: DefaultResponsiveElement,
+        name: 'All Breakpoints',
+        path: '/all-breakpoints',
+        component: AllBreakpoints,
       },
       {
-        name: 'Huge Responsive Element',
-        path: '/huge-responsive-element',
-        component: HugeResponsiveElement,
+        name: 'All Breakpoints Small Parent',
+        path: '/all-breakpoints-small-parent',
+        component: AllBreakpointsSmallParent,
       },
       {
-        name: 'Large Responsive Element',
-        path: '/large-responsive-element',
-        component: LargeResponsiveElement,
-      },
-      {
-        name: 'Medium Responsive Element',
-        path: '/medium-responsive-element',
-        component: MediumResponsiveElement,
-      },
-      {
-        name: 'Small Responsive Element',
-        path: '/small-responsive-element',
-        component: SmallResponsiveElement,
-      },
-      {
-        name: 'Tiny Responsive Element',
-        path: '/tiny-responsive-element',
-        component: TinyResponsiveElement,
-      },
-      {
-        name: 'Window Responsive Element',
-        path: '/window-responsive-element',
-        component: WindowResponsiveElement,
+        name: 'Default And Medium',
+        path: '/default-and-medium',
+        component: DefaultAndMedium,
       },
     ],
   },

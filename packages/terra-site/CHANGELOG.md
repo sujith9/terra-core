@@ -3,6 +3,8 @@ Changelog
 
 Unreleased
 ----------
+### Changed
+* Updated the example page for Responsive Element.
 
 2.13.0 - (May 25, 2018)
 ------------------
